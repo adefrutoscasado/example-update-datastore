@@ -91,7 +91,6 @@ const main = async () => {
         records,
         method: 'upsert' // can be 'insert' 
     }
-    console.log({payload})
     try {
         await client.action(actionName, payload)
     } catch (err) {
