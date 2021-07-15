@@ -6,3 +6,5 @@ Usage:
 
     npm install
     npm start
+
+This is a javascript version of the official CKAN python example https://github.com/ckan/example-update-datastore
